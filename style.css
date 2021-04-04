@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+}
+.container {
+  background-color: rgb(26, 25, 25);
+  width: 960px;
+  height: 1170px;
+  margin-left: 233px;
+  border-radius: 20px;
+}
+.logo {
+  width: 149px;
+  height: 111px;
+  margin-top: 17px;
+  margin-left: 34px;
+}
+.srch {
+  z-index: 999;
+  width: 480px;
+  left: 415px;
+  top: 64px;
+  position: absolute;
+}
+form {
+  display: block;
+  margin-left: 100px;
+  margin-top: 3px;
+}
+.srch_block {
+  background-color: #080808;
+  color: #ddd;
+  border: 2px solid #333;
+  height: 25px;
+  width: 310px;
+  opacity: 0.5;
+  font-size: 12px;
+  padding-left: 7px;
+}
+.ref {
+  text-align: center;
+  background-color: rgb(44, 44, 44);
+}
+.genres ul {
+  width: 960px;
+  padding: 0;
+}
+.genres ul li a {
+  display: block;
+  width: 190px;
+  height: 20px;
+  margin-left: 4px;
+  margin-top: 4px;
+  background-color: #2e2d2d;
+  color: #999;
+  text-align: center;
+  padding-top: 7px;
+}
+.reg {
+  display: flex;
+  float: right;
+  margin-left: -825px;
+  margin-top: -72.6px;
+  justify-content: flex-start;
+}
+.container-2, .container-3, .container-4, .movies-and-series {
+  display: flex;
+}
+.container-3 {
+  height: 669px;
+  padding: 10px 0px 0px 7px;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.genres {
+  float: left;
+  margin-left: 10px;
+}
+#advised-movies {
+  display: inline-block;
+  font-size: 15px;
+  color: #aaa;
+  width: 344px;
+  height: 20px;
+  background-color: #2e2d2d;
+  color: #999;
+  text-align: center;
+  padding-top: 7px;
+  margin-left: 0px;
+}
+#advised-series {
+  display: inline-block;
+  font-size: 15px;
+  color: #aaa;
+  width: 382px;
+  height: 20px;
+  background-color: #2e2d2d;
+  color: #999;
+  text-align: center;
+  padding-top: 7px;
+}
+.movies-and-series {
+  margin-left: 173px;
+  margin-top: -1045px;
+}
+li {
+  list-style-type: none;
+}
+.movie-1, .movie-2, .movie-3, .movie-4, .movie-5, .movie-6,
+.series-1, .series-2, .series-3, .series-4, .series-5, .series-6 {
+  color: #aaa;
+  text-decoration: none;
+  line-height: 1.1;
+  background-color: #292929;
+  display: block;
+  width: 169px;
+  height: 314px;
+  top: -14px;
+  left: 210px;
+  float: left;
+  margin: 3px;
+  text-align: center;
+  font-size: 11px;
+  padding: 7px 3px 2px 3px;
+  position: relative;
+  overflow: hidden;
+}
+img {
+  width: 165px;
+  height: 264.8px;
+}
+.eight {
+  margin-top: 0px;
+}
+.inc, .knives, .mile {
+  margin-top: 11px;
+}
+.league, .war {
+  margin-top: 8px;
+}
+h5 {
+  font-size: 15px;
+}
+.movies, .series {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.dark {
+  margin-top: 11px;
+}
+.container-5 {
+  display: flex;
+}
+.series {
+  margin-left: -30px;
+}
+h1, h2, h5 {
+  font-family: serif;
+}
